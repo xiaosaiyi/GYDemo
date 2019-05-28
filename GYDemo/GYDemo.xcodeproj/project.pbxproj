@@ -15,6 +15,7 @@
 		2C627808229D22300051E0F0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C627807229D22300051E0F0 /* main.m */; };
 		2C627812229D22310051E0F0 /* GYDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C627811229D22310051E0F0 /* GYDemoTests.m */; };
 		2C62781D229D22310051E0F0 /* GYDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C62781C229D22310051E0F0 /* GYDemoUITests.m */; };
+		2C62782D229D230F0051E0F0 /* UserDefaultUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C62782B229D230F0051E0F0 /* UserDefaultUtil.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		2C627818229D22310051E0F0 /* GYDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GYDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C62781C229D22310051E0F0 /* GYDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GYDemoUITests.m; sourceTree = "<group>"; };
 		2C62781E229D22310051E0F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C62782B229D230F0051E0F0 /* UserDefaultUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserDefaultUtil.m; sourceTree = "<group>"; };
+		2C62782C229D230F0051E0F0 /* UserDefaultUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserDefaultUtil.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		2C6277F7229D222F0051E0F0 /* GYDemo */ = {
 			isa = PBXGroup;
 			children = (
+				2C62782A229D230F0051E0F0 /* UserDefaultUtil */,
 				2C6277F8229D222F0051E0F0 /* AppDelegate.h */,
 				2C6277F9229D222F0051E0F0 /* AppDelegate.m */,
 				2C6277FB229D222F0051E0F0 /* ViewController.h */,
@@ -130,6 +134,15 @@
 				2C62781E229D22310051E0F0 /* Info.plist */,
 			);
 			path = GYDemoUITests;
+			sourceTree = "<group>";
+		};
+		2C62782A229D230F0051E0F0 /* UserDefaultUtil */ = {
+			isa = PBXGroup;
+			children = (
+				2C62782B229D230F0051E0F0 /* UserDefaultUtil.m */,
+				2C62782C229D230F0051E0F0 /* UserDefaultUtil.h */,
+			);
+			path = UserDefaultUtil;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,6 +277,7 @@
 			files = (
 				2C6277FD229D222F0051E0F0 /* ViewController.m in Sources */,
 				2C627808229D22300051E0F0 /* main.m in Sources */,
+				2C62782D229D230F0051E0F0 /* UserDefaultUtil.m in Sources */,
 				2C6277FA229D222F0051E0F0 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
